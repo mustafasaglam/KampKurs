@@ -49,7 +49,7 @@ namespace _06_DegerVeReferansTipler_AraKonu_Onemli
             //Bu şekilde heapda 101 adresinde olanı boşa çıkmış olur. Bunu .net in çöp temizleyicisi artık onu bellekte tutan bir değişken olmadığı için temizleyecektir.***
 
             // BU yapı temel olarak çok önemlidir. Ancak bilinmesi bellek yönetimi ve sürdürülebilirlik açısından temel manada çok önemlidir.
-
+            //
 
 
 
