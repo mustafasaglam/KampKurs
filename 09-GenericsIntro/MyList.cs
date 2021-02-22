@@ -28,7 +28,18 @@ namespace _09_GenericsIntro
             }
 
             items[items.Length - 1]=item; //items ın son elemanını al item a at diyoruz.
-
+            
         }
+
+        public int Length
+        {
+            get { return items.Length; }
+        }
+
+        public T[] Items
+        {
+            get { return items; }
+        }
+
     }
 }

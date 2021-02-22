@@ -9,10 +9,18 @@ namespace _09_GenericsIntro
         {
             MyList<string> isimler = new MyList<string>();//Oluşturduğumuz generic clasımızıda  bu şekilde newleyerek instance oluşturuyoruz. Yani burada Mylist isimlerin string tipinde verilerden oluşacağını belirtiyoruz.
             isimler.Add("Selim");
-            Console.WriteLine(isimler);
+            Console.WriteLine(isimler.Length);
+
+            isimler.Add("Ahmet");
+            Console.WriteLine(isimler.Length);
+
+            foreach (var item in isimler.Items)
+            {
+                Console.WriteLine(item);
+            }
 
 
-            
+
         }
     }
 }
